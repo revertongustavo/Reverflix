@@ -1,0 +1,103 @@
+:root{
+    --fonte-principal: 'Inter';
+    --branco-principal:#FFFFFF;
+}
+html{
+    background-color: black;
+}
+.body{
+    min-height: 100vh;
+}
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.principal {
+    background-image: url('./img/banner.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    align-items: center;
+}
+.container__caixa{
+    padding-left:5rem;
+}
+.container__imagem{
+    width:70%;
+}
+.container__titulo{
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 80%;
+    font-weight: 700;
+    text-align:left;
+    width: 70%;
+    margin: 2rem 0;
+    line-height: 130%;
+}
+
+.container__botao{
+    font-family: var(--fonte-principal);
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0 1rem 0 0;
+    padding: 0.5rem 2rem;
+    border-radius: 0.1rem;
+    font-weight: 600;
+}
+
+.botao__primario{
+    background:var(--branco-principal);
+    color: black;
+}
+
+.botao__secundario{
+    background:#A9A9A9;
+    color: var(--branco-principal);
+}
+.header__Reverflix{
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    height: 5rem;
+    padding-left: 5rem;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+.menu__one{
+    width:50rem;
+}
+.menu__two{
+    width:50rem;
+    display: flex;
+    justify-content:end;
+}
+
+.logo__header{
+    width: 8rem;
+}
+
+.menu__icon{
+    color: var(--branco-principal);
+    text-decoration: none;
+    font-family: var(--fonte-principal);
+    padding-left: 0.5rem;
+}
+
+.material-symbols-outlined {
+    color: rgba(255, 255, 255, 1);
+    padding:0.3rem;
+}
+
+.arrow-icon{
+    padding: 0;
+    margin: 0.5rem 0 0 0;
+}
+
+.list__name{
+    padding-left: 4.5rem;
+    padding-top: 15rem;
+}
+
+.img_filmes{
+    width: 82rem;
+}
