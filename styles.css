@@ -104,7 +104,8 @@ html{
 
 .rodape__lista{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding:0 12rem 0 4rem;
     font-weight: 1000px;
 }
 .lista__link a{
@@ -115,3 +116,18 @@ html{
     margin: 0.5rem;
 }
 
+.icon__all{
+    color:#FFFFFF;
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+
+.icones__redes{
+    padding: 1rem;
+}
+.codigo__servico{
+    width: 8em;
+    margin: 1.5rem 0 1.5rem 0.5rem;
+    padding: 0.5rem 0 0.5rem 1rem;
+    border: 1px solid grey;
+}
